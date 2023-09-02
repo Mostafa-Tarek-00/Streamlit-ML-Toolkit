@@ -7,6 +7,7 @@ Streamlit-ML-Toolkit is a Python project that aims to simplify the process of bu
 - Automated data preprocessing including handling missing values, label encoding, and data type conversion.
 - Interactive GUI for selecting and dropping columns, and choosing the target column.
 - Visualization of data distribution using histograms.
+- Customize the visualization by selecting different numerical columns to display histograms
 - Option to choose between classification and regression tasks.
 - Selection of various machine learning algorithms for the chosen task.
 - Model evaluation metrics displayed through a popup window.
@@ -28,7 +29,7 @@ Streamlit-ML-Toolkit is a Python project that aims to simplify the process of bu
 
 2. Install the required libraries by running:
    ```bash
-   pip install pandas numpy matplotlib seaborn scikit-learn PySimpleGUI xgboost
+   pip install pandas numpy matplotlib seaborn scikit-learn PySimpleGUI xgboost streamlit
    ```
 
 3. Run the `app.py` script to launch the Streamlit-ML-Toolkit:
@@ -40,14 +41,14 @@ Streamlit-ML-Toolkit is a Python project that aims to simplify the process of bu
 
 ## Usage
 
-1. Launch the GUI by running the `app.py` script.
+1. Launch the app by running the `app.py` script.
 2. Select a dataset file in CSV or Excel format.
 3. Preprocess the data by handling missing values and label encoding.
 4. Choose columns to drop if necessary.
 5. Select the target column for your task.
 6. Choose between a classification or regression task.
 7. Select an algorithm from the available options.
-8. After running the algorithm, a popup window will display evaluation metrics.
+8. After running the algorithm, the app will display evaluation metrics.
 
 ## Project Coming Updates
 
