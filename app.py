@@ -29,7 +29,7 @@ def main():
                 st.write("No columns were dropped.")
 
             target_column = st.selectbox("Select your target column:", processed_df.columns)
-            if st.checkbox("Perform Data Preprocessing"):
+            if st.checkbox("Make some of Data visualization"):
                 data_visualization.visualization(processed_df, label_encoders, target_column)
                 
             if st.radio("Choose the problem type:", ("Classification", "Regression")) == "Classification":
