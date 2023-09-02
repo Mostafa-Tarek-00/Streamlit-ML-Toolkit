@@ -16,9 +16,9 @@ Streamlit-ML-Toolkit is a Python project that aims to simplify the process of bu
 
 🎥 Watch this short video to see Streamlit-ML-Toolkit in action:
 
-[![Streamlit-ML-Toolkit Video]([https://img.youtube.com/vi/ZY9gGKUU_6k](https://youtu.be/EVEbTLVU-Ws)/0.jpg)]([https://www.youtube.com/watch?v=ZY9gGKUU_6k](https://youtu.be/EVEbTLVU-Ws))
+[![Streamlit-ML-Toolkit Video](https://img.youtube.com/vi/ZY9gGKUU_6k](https://youtu.be/EVEbTLVU-Ws)/0.jpg)](https://www.youtube.com/watch?v=ZY9gGKUU_6k](https://youtu.be/EVEbTLVU-Ws)
 
-[Click here to watch the video]([https://www.youtube.com/watch?v=ZY9gGKUU_6k](https://youtu.be/EVEbTLVU-Ws))
+[Click here to watch the video](https://www.youtube.com/watch?v=ZY9gGKUU_6k](https://youtu.be/EVEbTLVU-Ws))
 
 ## Getting Started
 
