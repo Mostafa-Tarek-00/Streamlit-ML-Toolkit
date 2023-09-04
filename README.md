@@ -34,7 +34,7 @@ Streamlit-ML-Toolkit is a Python project that aims to simplify the process of bu
 
 3. Run the `app.py` script to launch the Streamlit-ML-Toolkit:
    ```bash
-   python app.py
+   streamlit run app.py
    ```
    
 4. Follow the interactive GUI prompts to preprocess data, select columns, choose the target column, and run the selected algorithm.
