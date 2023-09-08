@@ -50,6 +50,24 @@ Streamlit-ML-Toolkit is a Python project that aims to simplify the process of bu
 7. Select an algorithm from the available options.
 8. After running the algorithm, the app will display evaluation metrics.
 
+## Contributing
+
+We welcome contributions to improve this project. To contribute, please follow these guidelines:
+
+1. **Fork the Repository:** Click the "Fork" button at the top right of this repository's page.
+
+2. **Create a New Branch:** Create a new branch for your feature or bug fix with a descriptive name.
+
+3. **Make Changes:** Make your changes in your forked repository. Please ensure that your code adheres to the project's coding standards.
+
+4. **Commit Changes:** Commit your changes with clear and descriptive commit messages.
+
+5. **Push Changes:** Push your changes to your forked repository.
+
+6. **Submit a Pull Request:** Submit a pull request to the main repository. In your pull request, describe the changes you've made and provide any relevant context.
+
+7. **Review and Feedback:** The project maintainers will review your pull request, provide feedback, and work with you to address any issues.
+
 ## Project Coming Updates
 
 - **First**: Introduced user-configurable parameters, including handling unbalanced data columns, improved data preprocessing, and enhanced visualization options.
