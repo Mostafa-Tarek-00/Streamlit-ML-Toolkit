@@ -52,7 +52,7 @@ Streamlit-ML-Toolkit is a Python project that aims to simplify the process of bu
 
 ## Contributing
 
-We welcome contributions to improve this project. To contribute, please follow these guidelines:
+welcome contributions to improve this project. To contribute, please follow these guidelines:
 
 1. **Fork the Repository:** Click the "Fork" button at the top right of this repository's page.
 
