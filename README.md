@@ -2,6 +2,19 @@
 
 Streamlit-ML-Toolkit is a Python project that aims to simplify the process of building and evaluating machine learning pipelines. The project provides an automated pipeline that performs data preprocessing, feature selection, algorithm selection, and model evaluation, with the flexibility to choose between classification and regression tasks.
 
+## Table of Contents
+- [Introduction](#introduction)
+- [Features](#features)
+- [Video Overview](#video-overview)
+- [Getting Started](#getting-started)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [Project Coming Updates](#project-coming-updates)
+
+## Introduction
+
+Welcome to the Streamlit-ML-Toolkit! This Python project is designed to simplify the complex process of building and evaluating machine learning pipelines. Whether you're a data scientist, a machine learning enthusiast, or someone looking to streamline your data analysis tasks, this toolkit is here to assist you. It provides an automated pipeline that takes care of data preprocessing, feature selection, algorithm selection, and model evaluation, all while offering the flexibility to choose between classification and regression tasks.
+
 ## Features
 
 - Automated data preprocessing including handling missing values, label encoding, and data type conversion.
