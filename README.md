@@ -5,7 +5,7 @@ Streamlit-ML-Toolkit is a Python project that aims to simplify the process of bu
 ## Table of Contents
 - [Introduction](#introduction)
 - [Features](#features)
-- [Video Overview](#video-overview)
+ <!---- [Video Overview](#video-overview)-->
 - [Getting Started](#getting-started)
 - [Usage](#usage)
 - [Contributing](#contributing)
@@ -25,13 +25,13 @@ Welcome to the Streamlit-ML-Toolkit! This Python project is designed to simplify
 - Selection of various machine learning algorithms for the chosen task.
 - Model evaluation metrics displayed through a popup window.
 
-## Video Overview
+<!--## Video Overview
 
 🎥 Watch this short video to see Streamlit-ML-Toolkit in action:
 
 [![AutoML-Pipeline Video](https://img.youtube.com/vi/EVEbTLVU-Ws/0.jpg)](https://www.youtube.com/watch?v=EVEbTLVU-Ws)
 
-[Click here to watch the video](https://www.youtube.com/watch?v=EVEbTLVU-Ws)
+[Click here to watch the video](https://www.youtube.com/watch?v=EVEbTLVU-Ws)-->
 
 ## Getting Started
 
