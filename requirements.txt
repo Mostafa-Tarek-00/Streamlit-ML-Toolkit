@@ -6,4 +6,3 @@ seaborn==0.12.2
 matplotlib==3.7.1
 numpy==1.23.5
 xgboost==1.7.5
-joblib==1.2.0
