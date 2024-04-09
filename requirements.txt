@@ -2,9 +2,8 @@ streamlit
 numba
 pandas
 pycaret==3.0.4
-scikit-learn
+scikit-learn==1.2.2
 seaborn
 matplotlib
 numpy
 xgboost
-setuptools
