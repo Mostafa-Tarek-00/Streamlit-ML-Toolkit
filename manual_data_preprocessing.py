@@ -15,12 +15,6 @@ def preprocess_data(df):
                 df[column_name] = converted_column
                 st.write(f"This column {column_name} has been converted to numirec to solve problem like '5' convert it to {5}")
                 categorical.remove(column_name)
-            else:
-                label_encoder = LabelEncoder()
-                encoded_values = label_encoder.fit_transform(df[column_name])
-                df[column_name] = encoded_values
-                label_encoders[column_name] = label_encoder
-                st.write(f"The {column_name} column  has been labeled encoded")
 
     for column_name in categorical:
         selectbox_key = f"selectbox_categorical_{column_name}"
@@ -51,5 +45,13 @@ def preprocess_data(df):
             df.dropna(subset=[column_name], inplace=True)
             st.write('drop_nulls')
             st.write(f"The {column_name} column didn't has any Nulls ({df[column_name].isnull().sum()}) after making {numerical_handling} Technique")
+
+    for column_name in df.columns:
+        if df[column_name].dtype == 'object':
+            label_encoder = LabelEncoder()
+            encoded_values = label_encoder.fit_transform(df[column_name])
+            df[column_name] = encoded_values
+            label_encoders[column_name] = label_encoder
+            st.write(f"The {column_name} column  has been labeled encoded")
 
     return df, label_encoders

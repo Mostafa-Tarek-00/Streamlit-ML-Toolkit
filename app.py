@@ -62,12 +62,12 @@ def main():
 
             if modelling_method == "Select method":
                 st.warning("Please choose a preprocessing method.")
-
+                
             elif modelling_method == "Automatic":
                 if target_column in label_encoders:
-                    automatic_classification.auto_pycaret(processed_df, target_column)
+                    automatic_classification.auto_sklearn(processed_df, target_column)
                 else:
-                    automatic_regression.auto_pycaret(processed_df, target_column)
+                    automatic_regression.auto_sklearn(processed_df, target_column)
 
             elif modelling_method == "Manual":
                 problem_type = st.radio("Choose the problem type:", ("Classification", "Regression"))
