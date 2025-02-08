@@ -1,7 +1,6 @@
 streamlit
 numba
 pandas
-pycaret==3.0.4
 scikit-learn==1.2.2
 seaborn
 matplotlib
